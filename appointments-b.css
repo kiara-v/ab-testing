@@ -26,6 +26,14 @@
     padding: 21px 22px 0 22px;
     /* min-width: 60em; */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.appointment-title {
+    font-size: 24px;
+    font-family: 'PPNeueMontreal';
+    color: black;
+    font-weight: bold;
 }
 
 .appointments-container-name {
@@ -49,6 +57,7 @@
     flex-direction: row;
     align-items: center;
     margin-bottom: 15px;
+    justify-content: space-around;
 }
 
 .appointment-date {
@@ -74,17 +83,19 @@
 .appointment-title, .appointment-text {
     margin-top: 0;
     margin-bottom: 0;
-    color: #868686;
 }
 
 .appointment-title {
     font-size: 24px;
     font-family: 'PPNeueMontreal';
+    color: black;
+    font-weight: bold;
 }
 
 .appointment-text {
     font-size: 20px;
     font-family: 'PPNeueMontrealBook';
+    color: #868686;
 }
 }
 
@@ -92,7 +103,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-left: 5%;
+    /* padding-left: 5%; */
 
 .defunct-button, .working-button {
     background-color: #D4E8FF;
